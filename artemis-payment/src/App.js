@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import {useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
+
+import Header from './components/Header';
 import Hero from './components/Hero';
+import NavMobile from './components/NavMobile';
+
+import Stats from './components/Stats';
+
+
 const App = () => {
 
-
+  const [navMobile, setNavMobile] = useState(false);
   // eslint-disable-next-line no-undef
   useEffect(()=> {
     Aos.init({
@@ -19,7 +26,13 @@ const App = () => {
   return (
   
   <div className="overflow-hidden">
+      <Header setNavMobile={setNavMobile}/>
       <Hero />
+
+      <div className={`${navMobile ? 'right-0' : '-right-full'} fixed z-10 top-0 h-full transition-all duration-200`}>
+        <NavMobile setNavMobile={setNavMobile}/>
+      </div>
+      <Stats/>
   </div>
   
   
