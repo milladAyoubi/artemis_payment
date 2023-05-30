@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { HiChartBar, HiUser,HiGlobe } from 'react-icons/hi'
+import airbnbLogo from '../assets/img/airbnb-logo.png'
 
 
 const Stats = () => {
@@ -8,7 +9,7 @@ const Stats = () => {
     <section className='pt-24' data-aos="fade-up" data-aos-delay="900" data-aos-duration="1200">
       <div className='container mx-auto'>
 
-        <div className='flex  gap-y-6 lg:flex:row lg:justify-between'>
+        <div className='flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between'>
           
             <div className='flex items-center gap-x-6'>
               <div className='bg-white/10 w-20 h-20 rounded-full flex items-center justify-center text-blue text-2xl lg:text-4xl'>
@@ -43,11 +44,18 @@ const Stats = () => {
 
               <div>
               <div className='text-lg font-bold lg:text-[30px] lg:mb-2 '>190+</div>
-                <div className='text-gray-400 text-gradient'>Countries Supported</div>
+                <div className='text-gray-400 text-gradient'>Countries Supported Today</div>
               </div>
             </div>
   
         </div>
+
+        <div className='flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between'>
+          
+          <div><img src={airbnbLogo} alt="" /></div>
+          <div>Airbnb</div>
+
+      </div>
       </div>
     </section>
     

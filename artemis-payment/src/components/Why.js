@@ -7,7 +7,7 @@ const Why = () => {
 
       <div className='container mx-auto'>
 
-        <div className='flex'>
+        <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
 
           <div>
             <img src={Image} alt="" />
@@ -18,7 +18,7 @@ const Why = () => {
             <p className='section-subtitle'>Experience the next generaton 
               cryptocurrencyt platform. No finanacial borders
             </p>
-            <button className='btn'>Learn More</button>
+            <button className='btn px-6'>Learn More</button>
           </div>
 
         </div>
