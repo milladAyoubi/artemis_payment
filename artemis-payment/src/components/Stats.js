@@ -12,12 +12,12 @@ const Stats = () => {
           
             <div className='flex items-center gap-x-6'>
               <div className='bg-white/10 w-20 h-20 rounded-full flex items-center justify-center text-blue text-2xl lg:text-4xl'>
-                <HiChartBar/>
+                <HiChartBar className='gradient'/>
               </div>
 
               <div>
-                <div className='text-lg font-bold lg:text-[30px] lg:mb-2'>$242B</div>
-                <div className='text-gray-400'>Digital Currency Exchanged</div>
+                <div className='text-lg font-bold lg:text-[30px] lg:mb-2 '>$242B</div>
+                <div className='text-gray-400 text-gradient'>Digital Currency Exchanged</div>
               </div>
             </div>
        
@@ -25,12 +25,12 @@ const Stats = () => {
    
             <div className='flex items-center gap-x-6'>
               <div className='bg-white/10 w-20 h-20 rounded-full flex items-center justify-center text-blue text-2xl lg:text-4xl'>
-                <HiUser/>
+                <HiUser className='gradient'/>
               </div>
 
               <div>
-              <div className='text-lg font-bold lg:text-[30px] lg:mb-2'>$328M</div>
-                <div className='text-gray-400'>Trusted Accounts Registerd</div>
+              <div className='text-lg font-bold lg:text-[30px] lg:mb-2 '>$328M</div>
+                <div className='text-gray-400 text-gradient'>Trusted Accounts Registerd</div>
               </div>
             </div>
       
@@ -38,12 +38,12 @@ const Stats = () => {
       
             <div className='flex items-center gap-x-6'>
               <div className='bg-white/10 w-20 h-20 rounded-full flex items-center justify-center text-blue text-2xl lg:text-4xl'>
-                <HiGlobe/>
+                <HiGlobe className='gradient'/>
               </div>
 
               <div>
-              <div className='text-lg font-bold lg:text-[30px] lg:mb-2'>190+</div>
-                <div className='text-gray-400'>Countries Supported</div>
+              <div className='text-lg font-bold lg:text-[30px] lg:mb-2 '>190+</div>
+                <div className='text-gray-400 text-gradient'>Countries Supported</div>
               </div>
             </div>
   

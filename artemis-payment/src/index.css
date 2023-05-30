@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
   body {
     @apply font-primary bg-darkblue text-white leading-normal;
@@ -30,5 +29,25 @@
   }
   .select {
     @apply lg:max-w-[200px] cursor-pointer;
+  }
+
+  .text-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #0aaea4 0.89%,
+      #4ba2e1 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .gradient {
+    color: #4ba2e1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
 }

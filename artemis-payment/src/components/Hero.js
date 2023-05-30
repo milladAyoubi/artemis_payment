@@ -20,7 +20,7 @@ const Hero = () => {
               <div className="px-4">For New Users Who Sign Up!</div>
             </div>
           </div>
-         <h1 className="text-[32px] lg:text-[64px] font-bold leading-tight mb-6 "  data-aos="fade-right" data-aos-delay="100" >A <span className="text-blue-500">Revolutionary</span> New Way To Invest In Your Future</h1>
+         <h1 className="text-[32px] lg:text-[64px] font-bold leading-tight mb-6 "  data-aos="fade-right" data-aos-delay="100" >A <span className="text-gradient">Revolutionary</span> New Way To Invest In Your Future</h1>
          <p className="max-w-[440px] leading-relaxed mb-8" data-aos="fade-up" data-aos-delay="200" >Our team of experts the latest AI tools to identify the credit cards to fit your finacial needs.</p>
           <button className="btn gap-x-6 pl-6 text-sm lg:h16 lg:text-base" data-aos="fade-up" data-aos-delay="200">
             Get Started 
