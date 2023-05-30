@@ -9,6 +9,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Why from './components/Why';
 import NavMobile from './components/NavMobile';
+import Business from './components/Business';
 
 import Stats from './components/Stats';
 
@@ -35,7 +36,9 @@ const App = () => {
         <NavMobile setNavMobile={setNavMobile}/>
       </div>
       <Stats/>
+      <Business/>
       <Why/>
+
   </div>
   
   

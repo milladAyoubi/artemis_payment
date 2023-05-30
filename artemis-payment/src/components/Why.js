@@ -7,13 +7,13 @@ const Why = () => {
 
       <div className='container mx-auto'>
 
-        <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
+        <div className='flex flex-col items-center gap-x-8 lg:flex-row' >
 
-          <div>
+          <div data-aos="fade-right" data-aos-delay="900"data-aos-duration="1200" >
             <img src={Image} alt="" />
           </div>
 
-          <div>
+          <div className='max-w-[540px]'>
             <h2 className='section-title'>Why you should choose Artemis?</h2>
             <p className='section-subtitle'>Experience the next generaton 
               cryptocurrencyt platform. No finanacial borders
