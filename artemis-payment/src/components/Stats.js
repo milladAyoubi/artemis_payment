@@ -1,7 +1,11 @@
 import React from 'react';
 
 import { HiChartBar, HiUser,HiGlobe } from 'react-icons/hi'
-import airbnbLogo from '../assets/img/airbnb-logo.png'
+
+import airbnbLogo from '../assets/img/airbnb-logo.png';
+import binanceLogo from '../assets/img/binance-logo.png';
+import coinbaseLogo from '../assets/img/coinbase-logo.png';
+import dropboxLogo from '../assets/img/dropbox-logo.png';
 
 
 const Stats = () => {
@@ -50,10 +54,26 @@ const Stats = () => {
   
         </div>
 
-        <div className='flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between'>
+        <div className='flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between mt-12'>
           
-          <div><img src={airbnbLogo} alt="" /></div>
-          <div>Airbnb</div>
+          <div>
+            <img src={airbnbLogo} alt="" className='h-12'/>
+          </div>
+
+          <div>
+            <img src={binanceLogo} alt="" className='h-9'/>
+          </div>
+
+          <div>
+            <img src={coinbaseLogo} alt="" className='h-9'/>
+          </div>
+
+
+          <div>
+            <img src={dropboxLogo} alt="" className='h-9'/>
+          </div>
+
+          
 
       </div>
       </div>
