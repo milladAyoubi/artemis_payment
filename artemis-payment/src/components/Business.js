@@ -1,6 +1,8 @@
 import React from 'react';
 
 import starIcon from '../assets/img/star-icon.svg'
+import shieldIcon from '../assets/img/shield-icon.svg'
+import sendIcon from '../assets/img/send-icon.svg'
 
 const Calculate = () => {
   return (
@@ -17,40 +19,40 @@ const Calculate = () => {
       </div>
 
 
-    <div>
+    <div  data-aos="fade-left" data-aos-delay="900"data-aos-duration="1200">
 
-      <div className='flex gap-4 py-6 px-10 buissness-icon-container'>
-        <div className='buissness-icon bg-white/10'>
+      <div className='flex gap-6 py-5 px-10 buissness-icon-container '>
+        <div className='buissness-icon bg-blue/10'>
           <img src={starIcon} alt="" />
         </div>
 
         <div className=''>
-          <h3>Stock Rewards</h3>
-          <p>The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+          <h3 className='text-xl mb-1 font-semibold'>Stock Rewards</h3>
+          <p className='text-white/60'>The best credit cards offer some tantalizing combinations of promotions and prizes</p>
         </div>
       </div>
 
 
-      <div className='flex gap-4 py-6 px-10 buissness-icon-container'>
-        <div className='buissness-icon bg-white/10'>
-          <img src={starIcon} alt="" />
+      <div className='flex gap-6 py-5 px-10 buissness-icon-container '>
+        <div className='buissness-icon bg-blue/10'>
+          <img src={shieldIcon} alt="" />
         </div>
 
-        <div >
-          <h3>Stock Rewards</h3>
-          <p>The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+        <div>
+          <h3 className='text-xl mb-1 font-semibold'>Military Grade Encryption </h3>
+          <p className='text-white/60'>We take proactive steps make sure your information and transactions are secure.</p>
         </div>
       </div>
 
 
-      <div className='flex gap-4 py-6 px-10 buissness-icon-container'>
-        <div className='buissness-icon bg-white/10'>
-          <img src={starIcon} alt="" />
+      <div className='flex gap-6 py-5 px-10 buissness-icon-container'>
+        <div className='buissness-icon bg-blue/10'>
+          <img src={sendIcon} alt="" />
         </div>
 
         <div >
-          <h3>Stock Rewards</h3>
-          <p>The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+          <h3 className='text-xl mb-1 font-semibold'>Universal E-Transfer</h3>
+          <p className='text-white/60'>A balance transfer credit card can save you a lot of money in interest charges.</p>
         </div>
       </div>
 

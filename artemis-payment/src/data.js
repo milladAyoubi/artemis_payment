@@ -1,7 +1,7 @@
 // import images
-import BitconImg from './assets/img/bitcon.png';
-import EthereumImg from './assets/img/ethereum.png';
-import LitecoinImg from './assets/img/litecoin.png';
+import cynthiaImg from './assets/img/cyntia.png';
+import maximusImg from './assets/img/maximus.png';
+import victorImg from './assets/img/victor.png';
 
 export const navData = [{
         name: 'Products',
@@ -21,22 +21,22 @@ export const navData = [{
     },
 ];
 
-export const currency = [{
-        image: BitconImg,
-        name: 'Bitcoin',
-        abbr: 'BTC',
-        description: 'Digital currency in which a record of transactions is maintained.',
+export const Reviews = [{
+        image: cynthiaImg,
+        name: 'Cynthia Xena',
+        position: 'CFO of Upload',
+        description: 'Seamless and efficient payment experience, revolutionizing the way we conduct transactions. From the moment we implemented Artemis, it effortlessly streamlined our processes.',
     },
     {
-        image: EthereumImg,
-        name: 'Ethereum',
-        abbr: 'ETH',
-        description: 'Blockchain technology to create and run decentralized digital applications.',
+        image: maximusImg,
+        name: 'Maximus Von Alder',
+        position: 'AI Researcher',
+        description: 'One of the most impressive aspects of Artemis is its data-driven insights. By analyzing transaction patterns, customer behavior, and market trends, the system empowers businesses with valuable intelligence.',
     },
     {
-        image: LitecoinImg,
-        name: 'Litecoin',
-        abbr: 'LTC',
-        description: 'Cryptocurrency that enables instant payments to anyone in the world.',
+        image: victorImg,
+        name: 'Victor Val',
+        position: 'Financial Advisor',
+        description: 'From a financial advisors perspective, the analytics and reporting capabilities of Artemis are truly remarkable.',
     },
 ];

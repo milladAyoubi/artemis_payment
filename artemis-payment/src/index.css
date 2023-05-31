@@ -52,12 +52,18 @@
   }
 
   .buissness-icon {
-    padding: 20px;
+    height: 100%;
+    width: auto;
+    padding: 14px;
     border-radius: 100px;
   }
 
+  .buissness-icon img {
+    width: 55px;
+  }
+
   .buissness-icon-container:hover {
-    background-color: rgba(255, 255, 255, 0.09);
+    background-color: rgba(255, 255, 255, 0.07);
     border-radius: 20px;
     transition: 0.3s;
     cursor: pointer;

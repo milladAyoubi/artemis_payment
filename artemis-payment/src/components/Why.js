@@ -14,7 +14,7 @@ const Why = () => {
           </div>
 
           <div className='max-w-[540px]'>
-            <h2 className='section-title'>Why you should choose Artemis?</h2>
+            <h2 className='section-title'>Why you should choose Artemis Payment?</h2>
             <p className='section-subtitle'>Experience the next generaton 
               cryptocurrencyt platform. No finanacial borders
             </p>
