@@ -21,17 +21,17 @@ export const navData = [{
     },
 ];
 
-export const Reviews = [{
+export const reviews = [{
         image: cynthiaImg,
         name: 'Cynthia Xena',
         position: 'CFO of Upload',
-        description: 'Seamless and efficient payment experience, revolutionizing the way we conduct transactions. From the moment we implemented Artemis, it effortlessly streamlined our processes.',
+        description: 'Seamless and efficient payment experience, revolutionizing the way we conduct transactions. ',
     },
     {
         image: maximusImg,
         name: 'Maximus Von Alder',
         position: 'AI Researcher',
-        description: 'One of the most impressive aspects of Artemis is its data-driven insights. By analyzing transaction patterns, customer behavior, and market trends, the system empowers businesses with valuable intelligence.',
+        description: 'One of the most impressive aspects of Artemis is its data-driven insights. ',
     },
     {
         image: victorImg,

@@ -10,7 +10,7 @@ import Hero from './components/Hero';
 import Why from './components/Why';
 import NavMobile from './components/NavMobile';
 import Business from './components/Business';
-
+import Trade from './components/Trade';
 import Stats from './components/Stats';
 
 
@@ -38,6 +38,8 @@ const App = () => {
       <Stats/>
       <Business/>
       <Why/>
+
+      <Trade/>
 
   </div>
   

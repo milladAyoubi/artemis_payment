@@ -3,7 +3,7 @@ import Image from '../assets/img/why-img.png'
 
 const Why = () => {
   return (
-    <section>
+    <section  className='section lg:pt-[60px]'>
 
       <div className='container mx-auto'>
 
