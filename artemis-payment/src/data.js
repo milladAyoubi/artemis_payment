@@ -1,5 +1,5 @@
 // import images
-import cynthiaImg from './assets/img/cyntia.png';
+import cynthiaImg from './assets/img/cynthia.png';
 import maximusImg from './assets/img/maximus.png';
 import victorImg from './assets/img/victor.png';
 
