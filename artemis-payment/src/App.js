@@ -12,6 +12,7 @@ import NavMobile from './components/NavMobile';
 import Business from './components/Business';
 import Trade from './components/Trade';
 import Stats from './components/Stats';
+import Newsletter from './components/Newsletter';
 
 
 const App = () => {
@@ -38,8 +39,9 @@ const App = () => {
       <Stats/>
       <Business/>
       <Why/>
-
       <Trade/>
+
+      <Newsletter/>
 
   </div>
   

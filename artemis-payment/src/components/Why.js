@@ -9,7 +9,7 @@ const Why = () => {
 
         <div className='flex flex-col items-center gap-x-8 lg:flex-row' >
 
-          <div data-aos="fade-right" data-aos-delay="900"data-aos-duration="1200" >
+          <div data-aos="fade-right" data-aos-delay="1000"data-aos-duration="1200" >
             <img src={Image} alt="" />
           </div>
 

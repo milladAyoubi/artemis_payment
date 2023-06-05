@@ -19,7 +19,7 @@ const Calculate = () => {
       </div>
 
 
-    <div  data-aos="fade-left" data-aos-delay="900"data-aos-duration="1200">
+    <div  data-aos="fade-left" data-aos-delay="1000"data-aos-duration="1200">
 
       <div className='flex gap-6 py-5 px-10 buissness-icon-container '>
         <div className='buissness-icon bg-blue/10'>

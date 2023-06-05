@@ -10,7 +10,7 @@ import dropboxLogo from '../assets/img/dropbox-logo.png';
 
 const Stats = () => {
   return (
-    <section className='pt-24' data-aos="fade-up" data-aos-delay="900" data-aos-duration="1200">
+    <section className='pt-24' data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1200">
       <div className='container mx-auto'>
 
         <div className='flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between'>
