@@ -13,6 +13,7 @@ import Business from './components/Business';
 import Trade from './components/Trade';
 import Stats from './components/Stats';
 import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -40,8 +41,8 @@ const App = () => {
       <Business/>
       <Why/>
       <Trade/>
-
       <Newsletter/>
+      <Footer/>
 
   </div>
   
