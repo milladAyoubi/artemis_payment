@@ -15,6 +15,8 @@ import Stats from './components/Stats';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 
+import Crypto from './components/Crypto';
+
 
 const App = () => {
 
@@ -41,6 +43,7 @@ const App = () => {
       <Business/>
       <Why/>
       <Trade/>
+      <Crypto/>
       <Newsletter/>
       <Footer/>
 

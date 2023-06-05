@@ -3,7 +3,7 @@ import { reviews } from '../data';
 
 import quoteImg from '../assets/img/quote-img.png'
 
-import {IoIosArrowForward} from 'react-icons/io'
+
 
 const Trade = () => {
   return (
@@ -12,8 +12,10 @@ const Trade = () => {
   
     <div className='container mx-auto'>
       <h2 className='section-title text-center mb-16'>What people are saying about us</h2>
-      <div className='flex flex-col gap-[45px] lg:flex-row ' data-aos="fade-up" data-aos-delay="900"data-aos-duration="1200" >
+      <div className='flex flex-col gap-[45px] lg:flex-row  ' data-aos="fade-up" data-aos-delay="3900" data-aos-duration="1200"   >
         {reviews.map((item, index)=> {
+
+       
 
           const {image, name, position, description} = item;
           return (
