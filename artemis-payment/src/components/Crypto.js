@@ -12,7 +12,7 @@ const Crypto = () => {
     <div className='flex flex-col items-center gap-x-10 lg:flex-row' >
      <div className='lg:max-w-[700px]'>
             <h2 className='section-title'>Artemis Can Help You Get Started In Crypto Investing</h2>
-            <p className='section-subtitle'>Trade Securely and market the high growth cryptocurrencies for Fintech portfolios. 
+            <p className='section-subtitle'>Trade crypto securely and invest in the high growth cryptocurrencies for Fintech portfolios. 
             </p>
             <button className='btn px-6'>Learn More</button>
       </div>

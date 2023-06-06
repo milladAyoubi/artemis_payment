@@ -12,8 +12,8 @@ const Calculate = () => {
     <div className='flex flex-col items-center gap-x-10 lg:flex-row' >
      <div className='max-w-[500px]'>
             <h2 className='section-title'>Why you should choose Artemis Payment?</h2>
-            <p className='section-subtitle'>Experience the next generation cryptocurrency platform. 
-            No financial borders, extra fees, and fake reviews.
+            <p className='section-subtitle'>Experience the next generation payment platform. 
+            No financial borders, extra fees, and subpar benifets.
             </p>
             <button className='btn px-6'>Learn More</button>
       </div>

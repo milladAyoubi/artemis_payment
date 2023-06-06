@@ -14,9 +14,9 @@ const Why = () => {
           </div>
 
           <div className='max-w-[540px]'>
-            <h2 className='section-title'>Why you should choose Artemis Payment?</h2>
-            <p className='section-subtitle'>Experience the next generaton 
-              cryptocurrencyt platform. No finanacial borders
+            <h2 className='section-title'>Have control over your finances & invoicing</h2>
+            <p className='section-subtitle'>Take control of your billing and transaction information in realtime
+            with detailed charts.
             </p>
             <button className='btn px-6'>Learn More</button>
           </div>
