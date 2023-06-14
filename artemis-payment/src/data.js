@@ -4,20 +4,20 @@ import maximusImg from './assets/img/maximus.png';
 import victorImg from './assets/img/victor.png';
 
 export const navData = [{
-        name: 'Products',
-        href: '#',
-    },
-    {
         name: 'Features',
-        href: '#',
+        href: 'features',
     },
     {
-        name: 'About',
-        href: '#',
+        name: 'Reviews',
+        href: 'reviews',
+    },
+    {
+        name: 'Crypto',
+        href: 'crypto',
     },
     {
         name: 'Contact',
-        href: '#',
+        href: 'contact',
     },
 ];
 

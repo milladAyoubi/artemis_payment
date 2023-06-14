@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-scroll'
 import { navData } from '../data';
 
 const Nav = () => {
@@ -8,7 +9,7 @@ const Nav = () => {
           {navData.map((item, index) => {
             return  (
             <li className='border-b-2 border-transparent hover:border-blue-400 transition-all duration-300'key={index}>
-              <a href={item.href}>{item.name}</a>
+               <Link className='cursor-pointer' to={item.href} spy={true} smooth={true} offset={50} duration={1500}>{item.name}</Link>
             </li>
 
               );

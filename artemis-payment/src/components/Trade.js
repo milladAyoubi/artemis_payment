@@ -8,7 +8,7 @@ import quoteImg from '../assets/img/quote-img.png'
 const Trade = () => {
   return (
   
-  <section className='section lg:pt-[60px]'>
+  <section className='section lg:pt-[60px]' id="reviews">
   
     <div className='container mx-auto'>
       <h2 className='section-title text-center mb-16'>What people are saying about us</h2>

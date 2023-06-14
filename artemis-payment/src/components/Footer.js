@@ -12,14 +12,14 @@ const Footer = () => {
         <footer className='lg:pt-24 pt-0 bg-darkblue-100'>
             <div className='container mx-auto lg:mb-24'>
                  <div className='flex flex-col gap-12 lg:flex-row'>
-                    <div className='flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]'>
+                    <div className='flex-1 mx-auto mt-20 lg:mx-0 mb-6 max-w-[285px]'>
                         <a href="#">
                             <img src={Logo} alt="" />
                         </a>
                     </div>
 
                     <div className='flex flex-1 flex-col gap-16 lg:flex-row'>
-                        <div className='text-center-w-full lg:text-left'>
+                        <div className='text-center w-full lg:text-left'>
                             <div className='text-xl font-medium mb-6'>Quick Links</div>
                             <ul className='space-y-4 text-grey'>
                                 <li><a className='hover:text-blue transition ' href="#">Home</a></li>
@@ -29,7 +29,7 @@ const Footer = () => {
                                 <li><a className='hover:text-blue transition 'href="#">Contact</a></li>
                             </ul>
                         </div>
-                        <div className='text-center-w-full lg:text-left'>
+                        <div className='text-center w-full lg:text-left'>
                             <div className='text-xl font-medium mb-6'>Resources Links</div>
                             <ul className='space-y-4 text-grey'>
                                 <li><a className='hover:text-blue transition ' href="#">Privacy Policy</a></li>

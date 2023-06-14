@@ -8,7 +8,7 @@ import { CgMenuRight } from 'react-icons/cg'
 
 const Header = ( {setNavMobile} ) => {
     return (
-      <header className='py-[30px] lg;pt-[60px]' data-aos="fade-down" data-aos-delay="900" data-aos-duration="1200">
+      <header className='py-[30px] lg;pt-[60px] ' data-aos="fade-down" data-aos-delay="900" data-aos-duration="1200">
       <div className='container mx-auto flex items-center justify-between'> 
       <a href="#">
         <img src={Logo} alt="" />

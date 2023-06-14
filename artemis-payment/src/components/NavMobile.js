@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-scroll'
 import {navData} from '../data';
 import { CgClose } from 'react-icons/cg'
 
@@ -14,7 +14,7 @@ const NavMobile = ({setNavMobile}) => {
             {navData.map((item,index) => {
               return  (
               <li key={index}>
-                <a href={item.href}>{item.name}</a>
+                      <Link className='cursor-pointer' to={item.href} spy={true} smooth={true} offset={50} duration={1500} onClick={()=> setNavMobile(false)} >{item.name}</Link>
               </li>
               );
             })}

@@ -7,7 +7,7 @@ import sendIcon from '../assets/img/send-icon.svg'
 const Calculate = () => {
   return (
   
-  <section  className='section lg:pt-[160px]'>
+  <section  className='section lg:pt-[160px]' id="features">
     <div className='container mx-auto'>
     <div className='flex flex-col items-center gap-x-10 lg:flex-row' >
      <div className='max-w-[500px]'>

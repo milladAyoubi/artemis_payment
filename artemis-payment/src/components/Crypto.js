@@ -7,7 +7,7 @@ import crypto from '../assets/img/crypto.png'
 const Crypto = () => {
   return (
   
-  <section  className='section lg:pt-[160px]'>
+  <section  className='section lg:pt-[160px]' id="crypto">
     <div className='container mx-auto'>
     <div className='flex flex-col items-center gap-x-10 lg:flex-row' >
      <div className='lg:max-w-[700px]'>
